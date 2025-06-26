@@ -1,2 +1,2 @@
-# DIO-Scrum-Master-Certification
+# Scrum-Master-Certification
 DIO.ME
