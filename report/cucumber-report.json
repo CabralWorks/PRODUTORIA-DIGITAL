@@ -1,0 +1,63 @@
+[
+  {
+    "description": "  Como um visitante do sistema\n  Quero preencher o formulário de cadastro\n  Para criar uma nova conta",
+    "elements": [
+      {
+        "description": "",
+        "id": "cadastro-de-usuário;cadastro-com-sucesso",
+        "keyword": "Cenário",
+        "line": 7,
+        "name": "Cadastro com sucesso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estou na página de cadastro",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2295499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 9,
+            "name": "eu preencho todos os campos corretamente",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 10,
+            "name": "vejo a mensagem \"Cadastro realizado com sucesso\"",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 556399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "cadastro-de-usuário",
+    "line": 2,
+    "keyword": "Funcionalidade",
+    "name": "Cadastro de usuário",
+    "tags": [],
+    "uri": "features\\exemplo.feature"
+  }
+]
